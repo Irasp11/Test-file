@@ -1,0 +1,26 @@
+Задание 1
+
+cd Users/arturandreasian/desktop
+git clone git@github.com:Irasp11/Test-file.git
+
+Задание 2
+
+cd /Users/arturandreasian/desktop/Test-GIT
+git init
+git add .
+git commit -m 'Initial project version'
+
+
+git remote add origin git@github.com:Irasp11/test.git
+git branch -M main
+git push -u origin main
+
+Задание 3
+git pull https://github.com:username/RepoName.git
+git pull origin master
+
+Задание 4
+
+1. git status - отображает состояние рабочего каталога и раздела проиндексированных файлов.
+2. git log - отображает отправленные снимки состояния и позволяет просматривать и фильтровать историю проекта, а также искать в ней конкретные изменения.
+3. git remote -v - Эта команда используется для просмотра подключенных удаленных репозиториев.
